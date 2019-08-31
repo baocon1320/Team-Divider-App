@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC7750E52229DAEA005E02D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7750E42229DAEA005E02D1 /* AppDelegate.swift */; };
+		DC7750E72229DAEA005E02D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7750E62229DAEA005E02D1 /* ViewController.swift */; };
+		DC7750EA2229DAEA005E02D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7750E82229DAEA005E02D1 /* Main.storyboard */; };
+		DC7750EC2229DAEC005E02D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7750EB2229DAEC005E02D1 /* Assets.xcassets */; };
+		DC7750EF2229DAEC005E02D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7750ED2229DAEC005E02D1 /* LaunchScreen.storyboard */; };
+		DC7750FA2229DAEC005E02D1 /* TeamPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7750F92229DAEC005E02D1 /* TeamPickerTests.swift */; };
+		DC7751052229DFC0005E02D1 /* PlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7751042229DFC0005E02D1 /* PlayerCollectionViewCell.swift */; };
+		DC7751072229E27F005E02D1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7751062229E27F005E02D1 /* Player.swift */; };
+		DC775109222B2537005E02D1 /* SelectTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC775108222B2537005E02D1 /* SelectTeamViewController.swift */; };
+		DC969FEE2233462600B705D6 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC969FED2233462600B705D6 /* RatingControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC7750F62229DAEC005E02D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC7750D92229DAEA005E02D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC7750E02229DAEA005E02D1;
+			remoteInfo = TeamPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC7750E12229DAEA005E02D1 /* TeamPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7750E42229DAEA005E02D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC7750E62229DAEA005E02D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC7750E92229DAEA005E02D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC7750EB2229DAEC005E02D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC7750EE2229DAEC005E02D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC7750F02229DAEC005E02D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7750F52229DAEC005E02D1 /* TeamPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7750F92229DAEC005E02D1 /* TeamPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPickerTests.swift; sourceTree = "<group>"; };
+		DC7750FB2229DAEC005E02D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7751042229DFC0005E02D1 /* PlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC7751062229E27F005E02D1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DC775108222B2537005E02D1 /* SelectTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTeamViewController.swift; sourceTree = "<group>"; };
+		DC969FED2233462600B705D6 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7750DE2229DAEA005E02D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7750F22229DAEC005E02D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC7750D82229DAEA005E02D1 = {
+			isa = PBXGroup;
+			children = (
+				DC7750E32229DAEA005E02D1 /* TeamPicker */,
+				DC7750F82229DAEC005E02D1 /* TeamPickerTests */,
+				DC7750E22229DAEA005E02D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7750E22229DAEA005E02D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7750E12229DAEA005E02D1 /* TeamPicker.app */,
+				DC7750F52229DAEC005E02D1 /* TeamPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7750E32229DAEA005E02D1 /* TeamPicker */ = {
+			isa = PBXGroup;
+			children = (
+				DC7750E42229DAEA005E02D1 /* AppDelegate.swift */,
+				DC7750E62229DAEA005E02D1 /* ViewController.swift */,
+				DC7750E82229DAEA005E02D1 /* Main.storyboard */,
+				DC775108222B2537005E02D1 /* SelectTeamViewController.swift */,
+				DC7751062229E27F005E02D1 /* Player.swift */,
+				DC7751042229DFC0005E02D1 /* PlayerCollectionViewCell.swift */,
+				DC7750EB2229DAEC005E02D1 /* Assets.xcassets */,
+				DC7750ED2229DAEC005E02D1 /* LaunchScreen.storyboard */,
+				DC7750F02229DAEC005E02D1 /* Info.plist */,
+				DC969FED2233462600B705D6 /* RatingControl.swift */,
+			);
+			path = TeamPicker;
+			sourceTree = "<group>";
+		};
+		DC7750F82229DAEC005E02D1 /* TeamPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC7750F92229DAEC005E02D1 /* TeamPickerTests.swift */,
+				DC7750FB2229DAEC005E02D1 /* Info.plist */,
+			);
+			path = TeamPickerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7750E02229DAEA005E02D1 /* TeamPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7750FE2229DAEC005E02D1 /* Build configuration list for PBXNativeTarget "TeamPicker" */;
+			buildPhases = (
+				DC7750DD2229DAEA005E02D1 /* Sources */,
+				DC7750DE2229DAEA005E02D1 /* Frameworks */,
+				DC7750DF2229DAEA005E02D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeamPicker;
+			productName = TeamPicker;
+			productReference = DC7750E12229DAEA005E02D1 /* TeamPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC7750F42229DAEC005E02D1 /* TeamPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7751012229DAEC005E02D1 /* Build configuration list for PBXNativeTarget "TeamPickerTests" */;
+			buildPhases = (
+				DC7750F12229DAEC005E02D1 /* Sources */,
+				DC7750F22229DAEC005E02D1 /* Frameworks */,
+				DC7750F32229DAEC005E02D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC7750F72229DAEC005E02D1 /* PBXTargetDependency */,
+			);
+			name = TeamPickerTests;
+			productName = TeamPickerTests;
+			productReference = DC7750F52229DAEC005E02D1 /* TeamPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC7750D92229DAEA005E02D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Bao Nguyen";
+				TargetAttributes = {
+					DC7750E02229DAEA005E02D1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DC7750F42229DAEC005E02D1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DC7750E02229DAEA005E02D1;
+					};
+				};
+			};
+			buildConfigurationList = DC7750DC2229DAEA005E02D1 /* Build configuration list for PBXProject "TeamPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC7750D82229DAEA005E02D1;
+			productRefGroup = DC7750E22229DAEA005E02D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7750E02229DAEA005E02D1 /* TeamPicker */,
+				DC7750F42229DAEC005E02D1 /* TeamPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7750DF2229DAEA005E02D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7750EF2229DAEC005E02D1 /* LaunchScreen.storyboard in Resources */,
+				DC7750EC2229DAEC005E02D1 /* Assets.xcassets in Resources */,
+				DC7750EA2229DAEA005E02D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7750F32229DAEC005E02D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC7750DD2229DAEA005E02D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC775109222B2537005E02D1 /* SelectTeamViewController.swift in Sources */,
+				DC7751072229E27F005E02D1 /* Player.swift in Sources */,
+				DC7750E72229DAEA005E02D1 /* ViewController.swift in Sources */,
+				DC7750E52229DAEA005E02D1 /* AppDelegate.swift in Sources */,
+				DC969FEE2233462600B705D6 /* RatingControl.swift in Sources */,
+				DC7751052229DFC0005E02D1 /* PlayerCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7750F12229DAEC005E02D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7750FA2229DAEC005E02D1 /* TeamPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC7750F72229DAEC005E02D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC7750E02229DAEA005E02D1 /* TeamPicker */;
+			targetProxy = DC7750F62229DAEC005E02D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC7750E82229DAEA005E02D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7750E92229DAEA005E02D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC7750ED2229DAEC005E02D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7750EE2229DAEC005E02D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC7750FC2229DAEC005E02D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC7750FD2229DAEC005E02D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC7750FF2229DAEC005E02D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC88BZV437;
+				INFOPLIST_FILE = TeamPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example..TeamPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC7751002229DAEC005E02D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC88BZV437;
+				INFOPLIST_FILE = TeamPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example..TeamPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC7751022229DAEC005E02D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC88BZV437;
+				INFOPLIST_FILE = TeamPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example..TeamPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamPicker.app/TeamPicker";
+			};
+			name = Debug;
+		};
+		DC7751032229DAEC005E02D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC88BZV437;
+				INFOPLIST_FILE = TeamPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example..TeamPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamPicker.app/TeamPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC7750DC2229DAEA005E02D1 /* Build configuration list for PBXProject "TeamPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7750FC2229DAEC005E02D1 /* Debug */,
+				DC7750FD2229DAEC005E02D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7750FE2229DAEC005E02D1 /* Build configuration list for PBXNativeTarget "TeamPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7750FF2229DAEC005E02D1 /* Debug */,
+				DC7751002229DAEC005E02D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7751012229DAEC005E02D1 /* Build configuration list for PBXNativeTarget "TeamPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7751022229DAEC005E02D1 /* Debug */,
+				DC7751032229DAEC005E02D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC7750D92229DAEA005E02D1 /* Project object */;
+}
